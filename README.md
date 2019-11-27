@@ -99,6 +99,6 @@ $ MATCH p=()-->() RETURN p LIMIT 5000
 ```
 ![alt Graph database](https://raw.githubusercontent.com/PDNMX/datosDataton2019/master/S6_Contrataciones/graph.png)
 
-¿Qué cosas interesantes puedes observar?
+**¿Qué cosas interesantes puedes observar?**
 
 
