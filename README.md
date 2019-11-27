@@ -46,7 +46,7 @@ Gobierno (buyers), los procesos de contrataciones y los participantes (tenderers
 
 | Archivo        | Formato  | Comentarios  |
 | :------------- |:-------------| :-----|
-| [oc_graph.dump](https://drive.google.com/drive/u/1/folders/1bKE30mzxcRmQtPxQ8mCyaE7gYJdTiiHL) | Neo4j dump | Base de datos de grafos |
+| [oc_graph.dump](https://drive.google.com/open?id=1EkbFSvMjVXYtNqpHGO-3ac0LvPU95uuB) | Neo4j dump | Base de datos de grafos |
 
 Instrucciones para restaurar la base de datos:
 ```shell script
