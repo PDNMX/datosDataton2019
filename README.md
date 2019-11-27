@@ -2,9 +2,9 @@
 
 Las bases de datos que estarán disponibles para este año serán las de tres de los seis sistemas de la Plataforma Digital Nacional:
 
-Sistema 2 (S2) - Sistema de los Servidores públicos que intervengan en procedimientos de contrataciones públicas 
-Sistema 3 (S3) - Sistema nacional de Servidores públicos y particulares sancionados 
-Sistema 6 (S6) - Sistema de Información Pública de Contrataciones (incluyendo EDCA y sus extensiones)
+- Sistema 2 (S2): Sistema de los Servidores públicos que intervengan en procedimientos de contrataciones públicas 
+- Sistema 3 (S3): Sistema nacional de Servidores públicos y particulares sancionados 
+- Sistema 6 (S6): Sistema de Información Pública de Contrataciones (incluyendo EDCA y sus extensiones)
 
 ## Contrataciones (S6)
 Son los datos abiertos de las compras públicas en formato OCDS, [Open Contracting Data Standard](https://standard.open-contracting.org/latest/en/) (A.K.A [EDCA](https://www.contratacionesabiertas.mx/) = Estándar de Contrataciones Abiertas).
