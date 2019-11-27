@@ -46,20 +46,21 @@ Gobierno (buyers), los procesos de contrataciones y los participantes (tenderers
 
 | Archivo        | Formato  | Comentarios  |
 | :------------- |:-------------| :-----|
-| ocgraph.dump.zip | Neo4j dump | Base de datos de grafos |
+| [oc_graph.dump](https://drive.google.com/drive/u/1/folders/1bKE30mzxcRmQtPxQ8mCyaE7gYJdTiiHL) | Neo4j dump | Base de datos de grafos |
 
 Instrucciones para restaurar la base de datos:
 ```shell script
-# Descomprime la base de datos
-unzip ocgraph.dump.zip
 
 # Ingresa al directorio de neo4j y detén la base de datos
 $neo4j-home> bin/neo4j stop
 
 # Restaura la base de datos
-$neo4j-home> bin/neo4j-admin load --from=~/ocgraph.dump --database=graph.db --force
+$neo4j-home> bin/neo4j-admin load --from=/path/to/oc_graph.dump --database=graph.db --force
 ```
 Representación gráfica:
+```
+$ MATCH p=()-->() RETURN p LIMIT 5000
+```
 ![alt Graph database](https://raw.githubusercontent.com/PDNMX/datosDataton2019/master/S6_Contrataciones/graph.png)
 
 
