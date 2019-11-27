@@ -7,7 +7,7 @@ Las bases de datos que estarán disponibles para este año serán las de tres de
 - Sistema 6 (S6): Sistema de Información Pública de Contrataciones (incluyendo EDCA y sus extensiones)
 
 ## Contrataciones (S6)
-Son los datos abiertos de las compras públicas federales en formato OCDS, [Open Contracting Data Standard](https://standard.open-contracting.org/latest/en/) (A.K.A [EDCA](https://www.contratacionesabiertas.mx/) = Estándar de Contrataciones Abiertas).
+Son los datos abiertos de las compras públicas del Gobierno Federal en formato OCDS, [Open Contracting Data Standard](https://standard.open-contracting.org/latest/en/) (A.K.A [EDCA](https://www.contratacionesabiertas.mx/) = Estándar de Contrataciones Abiertas).
 
 ### Fuente de datos 
 Plataforma Digital Nacional: https://plataformadigitalnacional.org/contrataciones
@@ -20,11 +20,18 @@ Plataforma Digital Nacional: https://plataformadigitalnacional.org/contratacione
 Json
 
 ### Datos
-Primero se partió del conjunto de datos de contrataciones (S6)
+Primero se partió del conjunto de datos de contrataciones (S6). Se tienen las siguientes características.
+
+| Nombre del archivo        | Formato  | Descripción  |
+| :------------- |:-------------| :-----|
+| contrataciones_arr.json.zip      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
+
+Posteriormente, de este conjunto de datos se extrajeron los *compradores* (buyers) y los *proveedores* (suppliers) para crear dos conjuntos de datos adicionales. 
+
+Finalmente se creó otro conjunto de datos adicional usando las siguientes variables ocid, buyer, parties, tender.procurementMethod, tender.title y contracts.
 
 | Archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
-| contrataciones_arr.json.zip      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
 | buyers.json.zip | JSON Array| Instituciones compradoras |
 | tenderers_suppliers.json.zip| JSON Array| Proveedores/contratistas|
 | cp.json.zip| JSON Array| [Proyección](https://en.wikipedia.org/wiki/Projection_\(relational_algebra\)) de contrataciones_arr.json.zip|
