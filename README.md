@@ -1,11 +1,28 @@
 # Dataton2019 - Datos 
-Datos para usarse en el datatón 2019.
 
-## Contrataciones (Sistema 6)
-Datos de compras públicas.
+Las bases de datos que estarán disponibles para este año serán las de tres de los seis sistemas de la Plataforma Digital Nacional:
 
-### Datos en formato JSON
-| Archivo        | Formato  | Comentarios  |
+Sistema 2 (S2) - Sistema de los Servidores públicos que intervengan en procedimientos de contrataciones públicas 
+Sistema 3 (S3) - Sistema nacional de Servidores públicos y particulares sancionados 
+Sistema 6 (S6) - Sistema de Información Pública de Contrataciones (incluyendo EDCA y sus extensiones)
+
+## Contrataciones (S6)
+Son los datos abiertos de las compras públicas en formato OCDS, [Open Contracting Data Standard](https://standard.open-contracting.org/latest/en/) (A.K.A [EDCA](https://www.contratacionesabiertas.mx/) = Estándar de Contrataciones Abiertas).
+
+### Fuente de datos 
+Plataforma Digital Nacional https://plataformadigitalnacional.org/contrataciones a través de https://datos.gob.mx/
+
+### Periodo comprendido
+2017-2019
+
+
+### Formato abierto de los datos
+Json
+
+### Datos
+Primero se partió del conjunto de datos de contrataciones (S6)
+
+| Archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
 | contrataciones_arr.json.zip      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
 | buyers.json.zip | JSON Array| Instituciones compradoras |
