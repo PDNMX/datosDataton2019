@@ -10,7 +10,7 @@ Las bases de datos que estarán disponibles para este año serán las de tres de
 Son los datos abiertos de las compras públicas en formato OCDS, [Open Contracting Data Standard](https://standard.open-contracting.org/latest/en/) (A.K.A [EDCA](https://www.contratacionesabiertas.mx/) = Estándar de Contrataciones Abiertas).
 
 ### Fuente de datos 
-Plataforma Digital Nacional https://plataformadigitalnacional.org/contrataciones a través de https://datos.gob.mx/
+Plataforma Digital Nacional: https://plataformadigitalnacional.org/contrataciones
 
 ### Periodo comprendido
 2017-2019
