@@ -27,7 +27,7 @@ Primero se partió del conjunto de datos de contrataciones (S6). Este conjunto d
 | contrataciones_arr.json.zip      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
 
 ### Construcción de subconjuntos de Datos
-Para poder ejemplificar el uso de grafos en los datos de contrataciones, se extrajeron del conjunto original los **compradores** (buyers) y los **proveedores** (suppliers) para crear dos conjuntos de datos adicionales. 
+Para poder ejemplificar el uso de grafos en los datos de contrataciones, se extrajeron del conjunto original los **Instituciones compradores** (buyers) y los **Proveedores/contratistas** (suppliers) para crear dos conjuntos de datos adicionales. 
 
 Finalmente se creó otro conjunto de datos adicional usando las siguientes variables:
 - ocid
