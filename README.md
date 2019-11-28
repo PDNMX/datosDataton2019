@@ -27,9 +27,9 @@ Primero se partió del conjunto de datos de contrataciones (S6). Este conjunto d
 | contrataciones_arr.json.zip      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
 
 ### Construcción de subconjuntos de Datos
-Para poder ejemplificar el uso de grafos en los datos de contrataciones, se extrajeron del conjunto original los **Instituciones compradores** (buyers) y los **Proveedores/contratistas** (suppliers) para crear dos conjuntos de datos adicionales. 
+Para poder ejemplificar el uso de grafos en los datos de contrataciones, se extrajeron del conjunto original los **Instituciones compradores** (buyers) y los **Proveedores/contratistas** (suppliers) para crear dos subconjuntos de datos adicionales. 
 
-Finalmente se creó otro conjunto de datos adicional usando las siguientes variables:
+Finalmente se creó otro subconjunto de datos adicional usando las siguientes variables:
 - ocid
 - buyer
 - parties
@@ -37,11 +37,13 @@ Finalmente se creó otro conjunto de datos adicional usando las siguientes varia
 - tender.title
 - contracts
 
+Los subconjuntos generados son los siguientes:
+
 | Archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
 | buyers.json.zip | JSON Array| Instituciones compradoras |
 | tenderers_suppliers.json.zip| JSON Array| Proveedores/contratistas|
-| cp.json.zip| JSON Array| [Proyección](https://en.wikipedia.org/wiki/Projection_\(relational_algebra\)) de contrataciones_arr.json.zip|
+| cp.json.zip| JSON Array| Varias variables de contrataciones_arr.json.zip|
 
 ### Importación de Datos
 Instrucciones para importar los datos en una instancia local de [MongoDB](https://www.mongodb.com/):
