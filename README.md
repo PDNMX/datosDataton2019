@@ -24,7 +24,7 @@ Primero se partió del conjunto de datos de contrataciones (S6). Este conjunto d
 
 | Nombre del archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
-| contrataciones_arr.json.zip      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
+| [contrataciones_arr.json.zip](https://drive.google.com/open?id=1XOYDLVv-RqcMs8_hzkZ0fjC9FYh2psFw)      | JSON Array| Datos de contrataciones públicas, organizados conforme al estandar [OCDS](https://standard.open-contracting.org/latest/es/) (A.K.A. "EDCA") |
 
 ### Construcción de subconjuntos de Datos
 Para poder ejemplificar el uso de grafos en los datos de contrataciones, se extrajeron del conjunto original los **Instituciones compradores** (buyers) y los **Proveedores/contratistas** (suppliers) para crear dos subconjuntos de datos adicionales. 
@@ -41,9 +41,9 @@ Los subconjuntos generados son los siguientes:
 
 | Archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
-| buyers.json.zip | JSON Array| Instituciones compradoras |
-| tenderers_suppliers.json.zip| JSON Array| Proveedores/contratistas|
-| cp.json.zip| JSON Array| Varias variables de contrataciones_arr.json.zip|
+| [buyers.json.zip](https://drive.google.com/open?id=1ZJaIaaENwJvKIKf2k2ZGd8WKEwMSGPIP) | JSON Array| Instituciones compradoras |
+| [tenderers_suppliers.json.zip](https://drive.google.com/open?id=1jGCZA70SPeLuAYK0tKIGAYPDfo4F9J3k)| JSON Array| Proveedores/contratistas|
+| [cp.json.zip](https://drive.google.com/open?id=1zwuwreBlYbuQnBR44MOH25bhbRO2qWQH)| JSON Array| Varias variables de contrataciones_arr.json.zip|
 
 ### Importación de Datos
 Instrucciones para importar los datos en una instancia local de [MongoDB](https://www.mongodb.com/):
