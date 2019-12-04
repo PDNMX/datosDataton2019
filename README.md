@@ -6,7 +6,7 @@ Las bases de datos que estarán disponibles para este año serán las de tres de
 - Sistema 3 (S3): Sistema nacional de Servidores públicos y particulares sancionados 
 - Sistema 6 (S6): Sistema de Información Pública de Contrataciones (incluyendo EDCA y sus extensiones)
 
-## Servidores públicos que intervienen en contrataciones 
+## Servidores públicos que intervienen en contrataciones (S2)
 | Nombre del archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
 |[s2-bulk.zip](https://drive.google.com/open?id=1nEHWih7eCFEUinZ-bYPPQcr0tYoEf8_6)| JSON Array | |
