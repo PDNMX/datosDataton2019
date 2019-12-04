@@ -14,8 +14,8 @@ Las bases de datos que estarán disponibles para este año serán las de tres de
 ## Servidores públicos y particulares sancionados (S3)
 | Nombre del archivo        | Formato  | Descripción  |
 | :------------- |:-------------| :-----|
-|[s2-servidores-bulk.zip](https://drive.google.com/open?id=1u577QPXivK3_-DETD37Tcjty0OskEWw-)|JSON Array| Servidores públicos sancionados|
-|[s2-particulares-bulk.zip](https://drive.google.com/open?id=108yGjWBK4175vWaRwRDhoiLLdG32EMHp)|JSON Array| Particulares sancionados|
+|[s3-servidores-bulk.zip](https://drive.google.com/open?id=1u577QPXivK3_-DETD37Tcjty0OskEWw-)|JSON Array| Servidores públicos sancionados|
+|[s3-particulares-bulk.zip](https://drive.google.com/open?id=108yGjWBK4175vWaRwRDhoiLLdG32EMHp)|JSON Array| Particulares sancionados|
 
 ## Contrataciones (S6)
 Son los datos abiertos de las compras públicas del Gobierno Federal en formato OCDS, [Open Contracting Data Standard](https://standard.open-contracting.org/latest/en/) (A.K.A [EDCA](https://www.contratacionesabiertas.mx/) = Estándar de Contrataciones Abiertas).
